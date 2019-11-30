@@ -99,10 +99,10 @@
  
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
 							</div>
-							<form action=""> </form>
-							<!-- <a href="/hasil/{{$hasil->id}}/delete" class="primary-btn float-center mt-30">
+							
+							<a href="/hasil/{{$hasil->hasil_id}}/delete" class="primary-btn float-center  mt-30">
                                   	  Oke
-                                  </a>		 -->
+                                  </a>		
 						</div>
 					</div>	     
                                

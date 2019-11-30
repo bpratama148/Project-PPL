@@ -229,8 +229,8 @@ public function storediagnosa(Request $request)
      public function deletehasil($id)
     {    
 
-         $hasil = hasil::find($id);
-         $hasil->delete($hasil);
+      hasil::where('hasil_id',$id)->delete();
+        
          return redirect('/pengguna-diagnosa');
 
         //
